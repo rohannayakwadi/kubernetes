@@ -1,0 +1,16 @@
+Pre-Req’s
+
+Ubuntu <16.0> 
+Docker 
+Kubeadm
+Kubectl
+Kubelet
+
+
+https://medium.com/@dileepjallipalli/setting-up-a-single-master-kubernetes-cluster-on-aws-using-kubeadm-fad03e5937cf
+
+After installing docker configure docker daemon to use systems container’s cgroups
+
+https://kubernetes.io/docs/setup/production-environment/container-runtimes/#docker
+
+Then restart docker and enable on boot as follows below. 
